@@ -1,0 +1,6 @@
+PCB width 92
+box len 120
+3mm below PCB
+30mm above PCB
+3mm edge clearance top
+5mm edge clearance bottom
