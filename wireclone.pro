@@ -1,4 +1,4 @@
-update=Wed 07 Dec 2016 21:50:14 ACDT
+update=Fri 09 Dec 2016 23:57:07 ACDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=ti-opamp
+LibName31=wbt-device
