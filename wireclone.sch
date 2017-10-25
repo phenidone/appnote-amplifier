@@ -75,7 +75,7 @@ U 1 1 584AA0FA
 P 6200 2100
 F 0 "P2" H 6200 2300 50  0000 C CNN
 F 1 "CONN_01X03" V 6300 2100 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 6200 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6200 2100 50  0001 C CNN
 F 3 "" H 6200 2100 50  0000 C CNN
 	1    6200 2100
 	-1   0    0    1   
@@ -92,7 +92,7 @@ U 1 1 584AA284
 P 9250 2100
 F 0 "P3" H 9250 2300 50  0000 C CNN
 F 1 "CONN_01X03" V 9350 2100 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 9250 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9250 2100 50  0001 C CNN
 F 3 "" H 9250 2100 50  0000 C CNN
 	1    9250 2100
 	1    0    0    1   

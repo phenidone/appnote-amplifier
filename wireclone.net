@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/william/git/pcb/WireClone/wireclone.sch)
-    (date "Wed 25 Oct 2017 23:11:33 ACDT")
+    (date "Wed 25 Oct 2017 23:46:54 ACDT")
     (tool "Eeschema 4.0.5-e0-6337~49~ubuntu15.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -39,13 +39,13 @@
   (components
     (comp (ref P2)
       (value CONN_01X03)
-      (footprint Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol)
+      (footprint Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm)
       (libsource (lib conn) (part CONN_01X03))
       (sheetpath (names /) (tstamps /))
       (tstamp 584AA0FA))
     (comp (ref P3)
       (value CONN_01X03)
-      (footprint Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol)
+      (footprint Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm)
       (libsource (lib conn) (part CONN_01X03))
       (sheetpath (names /) (tstamps /))
       (tstamp 584AA284))
