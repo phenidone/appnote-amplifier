@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -75,7 +75,7 @@ U 1 1 584AA0FA
 P 6200 2100
 F 0 "P2" H 6200 2300 50  0000 C CNN
 F 1 "CONN_01X03" V 6300 2100 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol" H 6200 2100 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 6200 2100 50  0001 C CNN
 F 3 "" H 6200 2100 50  0000 C CNN
 	1    6200 2100
 	-1   0    0    1   
@@ -92,7 +92,7 @@ U 1 1 584AA284
 P 9250 2100
 F 0 "P3" H 9250 2300 50  0000 C CNN
 F 1 "CONN_01X03" V 9350 2100 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol" H 9250 2100 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 9250 2100 50  0001 C CNN
 F 3 "" H 9250 2100 50  0000 C CNN
 	1    9250 2100
 	1    0    0    1   
@@ -122,22 +122,5 @@ Wire Wire Line
 Text Label 6250 2600 0    60   ~ 0
 GND
 Text Label 6450 2100 0    60   ~ 0
-GND
-$Sheet
-S 3000 1900 900  1000
-U 584AFB40
-F0 "xformer" 60
-F1 "xformer.sch" 60
-F2 "AC1" O R 3900 2300 60 
-F3 "AC2" O R 3900 2400 60 
-F4 "GND" O R 3900 2700 60 
-$EndSheet
-Wire Wire Line
-	3900 2700 4200 2700
-Wire Wire Line
-	3900 2400 4400 2400
-Wire Wire Line
-	3900 2300 4400 2300
-Text Label 4000 2700 0    60   ~ 0
 GND
 $EndSCHEMATC
