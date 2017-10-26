@@ -69,23 +69,8 @@ F4 "VEE" O R 5500 2700 60
 F5 "AC1" I L 4400 2300 60 
 F6 "AC2" I L 4400 2400 60 
 $EndSheet
-$Comp
-L CONN_01X03 P2
-U 1 1 584AA0FA
-P 6200 2100
-F 0 "P2" H 6200 2300 50  0000 C CNN
-F 1 "CONN_01X03" V 6300 2100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6200 2100 50  0001 C CNN
-F 3 "" H 6200 2100 50  0000 C CNN
-	1    6200 2100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	6400 2100 6600 2100
-Wire Wire Line
-	6400 2000 6850 2000
-Wire Wire Line
-	6850 2000 6850 2100
+	6850 1800 6850 2100
 $Comp
 L CONN_01X03 P3
 U 1 1 584AA284
@@ -110,7 +95,7 @@ Wire Wire Line
 Text Label 8850 2100 0    60   ~ 0
 GND
 Wire Wire Line
-	6400 2200 7000 2200
+	6150 2200 7000 2200
 Wire Wire Line
 	6850 2100 7000 2100
 Wire Wire Line
@@ -119,8 +104,38 @@ Wire Wire Line
 	5500 2600 7000 2600
 Wire Wire Line
 	5500 2700 7000 2700
-Text Label 6250 2600 0    60   ~ 0
+Text Label 6350 2600 0    60   ~ 0
 GND
-Text Label 6450 2100 0    60   ~ 0
-GND
+$Comp
+L CONN_01X02 P2
+U 1 1 59F1B351
+P 5950 1850
+F 0 "P2" H 5950 2000 50  0000 C CNN
+F 1 "CONN_01X02" V 6050 1850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5950 1850 50  0001 C CNN
+F 3 "" H 5950 1850 50  0000 C CNN
+	1    5950 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 59F1B7BD
+P 5950 2250
+F 0 "P4" H 5950 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 6050 2250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5950 2250 50  0001 C CNN
+F 3 "" H 5950 2250 50  0000 C CNN
+	1    5950 2250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1800 6150 1800
+Wire Wire Line
+	6150 2600 6150 2300
+Connection ~ 6150 2600
+Wire Wire Line
+	6150 1900 6250 1900
+Wire Wire Line
+	6250 1900 6250 2600
+Connection ~ 6250 2600
 $EndSCHEMATC
