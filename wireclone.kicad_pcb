@@ -2275,11 +2275,11 @@
       (xy -0.113933 -2.757629) (xy -0.013056 -2.757714) (xy 0 -2.757714) (xy 0.10391 -2.757652)) (layer F.SilkS) (width 0.01))
   )
 
-  (module smd:FID0.5 (layer F.Cu) (tedit 56AB5D7E) (tstamp 59F1CA82)
+  (module smd:FID0.5 (layer F.Cu) (tedit 59F1D343) (tstamp 59F1CA82)
     (at 71.12 30.48)
     (tags "fid, fiducial")
     (path /59F1CCBA)
-    (fp_text reference FID1 (at 0.5 2) (layer F.SilkS)
+    (fp_text reference FID1 (at 0.5 2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value FIDUCIAL (at 4.5 -4) (layer F.Fab)
@@ -2289,11 +2289,11 @@
       (solder_mask_margin 1) (clearance 1))
   )
 
-  (module smd:FID0.5 (layer F.Cu) (tedit 56AB5D7E) (tstamp 59F1CA87)
+  (module smd:FID0.5 (layer F.Cu) (tedit 59F1D348) (tstamp 59F1CA87)
     (at 71.12 71.12)
     (tags "fid, fiducial")
     (path /59F1D516)
-    (fp_text reference FID2 (at 0.5 2) (layer F.SilkS)
+    (fp_text reference FID2 (at 0.5 2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value FIDUCIAL (at 4.5 -4) (layer F.Fab)
@@ -2303,11 +2303,11 @@
       (solder_mask_margin 1) (clearance 1))
   )
 
-  (module smd:FID0.5 (layer F.Cu) (tedit 56AB5D7E) (tstamp 59F1CA8C)
+  (module smd:FID0.5 (layer F.Cu) (tedit 59F1D33E) (tstamp 59F1CA8C)
     (at 119.38 34.29)
     (tags "fid, fiducial")
     (path /59F1D603)
-    (fp_text reference FID3 (at 0.5 2) (layer F.SilkS)
+    (fp_text reference FID3 (at 0.5 2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value FIDUCIAL (at 4.5 -4) (layer F.Fab)
@@ -2317,11 +2317,11 @@
       (solder_mask_margin 1) (clearance 1))
   )
 
-  (module smd:FID0.5 (layer F.Cu) (tedit 56AB5D7E) (tstamp 59F1CA91)
+  (module smd:FID0.5 (layer F.Cu) (tedit 59F1D339) (tstamp 59F1CA91)
     (at 119.38 67.31)
     (tags "fid, fiducial")
     (path /59F1D58D)
-    (fp_text reference FID4 (at 0.5 2) (layer F.SilkS)
+    (fp_text reference FID4 (at 0.5 2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value FIDUCIAL (at 4.5 -4) (layer F.Fab)
