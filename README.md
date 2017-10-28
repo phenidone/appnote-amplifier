@@ -7,7 +7,7 @@ This is a PCB design for a headphone amplifier based on the example schematic in
 You will need a 12VAC or 24VAC centre-tapped transformer.  The simplest/safest option is to use it with
 a Class-II (double insulated) accredited 12VAC 0.5A plugpack and not ground any part of this design.
 
-Use 0.2"-pitch Phoneix-style screw terminals.
+Use 0.2"-pitch Phoenix-style screw terminals.
 
 ## Inputs & Outputs
 

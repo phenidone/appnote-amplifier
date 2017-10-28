@@ -36,9 +36,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title ""
-Date ""
-Rev ""
+Title "appnote-amplifier signal section"
+Date "2017-10-28"
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""

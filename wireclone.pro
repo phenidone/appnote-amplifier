@@ -1,4 +1,4 @@
-update=Fri 09 Dec 2016 23:57:07 ACDT
+update=Sat 28 Oct 2017 13:02:06 ACDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=ti-opamp
 LibName31=wbt-device
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
