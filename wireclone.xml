@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/william/git/pcb/appnote-amplifier/wireclone.sch</source>
-    <date>Wed 27 Dec 2017 21:52:59 ACDT</date>
+    <date>Wed 27 Dec 2017 23:05:10 ACDT</date>
     <tool>Eeschema 4.0.5-e0-6337~49~ubuntu15.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -348,7 +348,7 @@
     </comp>
     <comp ref="P1">
       <value>CONN_01X03</value>
-      <footprint>Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol</footprint>
+      <footprint>Terminals_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_3pol</footprint>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/PSU/" tstamps="/584A846C/"/>
       <tstamp>584ADD48</tstamp>
@@ -368,18 +368,18 @@
       <tstamp>584ADE5D</tstamp>
     </comp>
     <comp ref="D5">
-      <value>LL4148</value>
-      <footprint>Diodes_SMD:D_MiniMELF</footprint>
+      <value>M7</value>
+      <footprint>Diodes_SMD:D_SMA</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/PSU/" tstamps="/584A846C/"/>
-      <tstamp>5A4380AA</tstamp>
+      <tstamp>5A43A934</tstamp>
     </comp>
     <comp ref="D6">
-      <value>LL4148</value>
-      <footprint>Diodes_SMD:D_MiniMELF</footprint>
+      <value>M7</value>
+      <footprint>Diodes_SMD:D_SMA</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/PSU/" tstamps="/584A846C/"/>
-      <tstamp>5A4382E8</tstamp>
+      <tstamp>5A43A9BC</tstamp>
     </comp>
   </components>
   <libparts>
@@ -571,20 +571,20 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="wbt-device">
+      <uri>/home/william/git/pcb/libraries/wbt-device.lib</uri>
+    </library>
     <library logical="regul">
       <uri>/usr/share/kicad/library/regul.lib</uri>
     </library>
     <library logical="ti-opamp">
       <uri>/home/william/git/pcb/libraries/ti-opamp.lib</uri>
     </library>
-    <library logical="wbt-device">
-      <uri>/home/william/git/pcb/libraries/wbt-device.lib</uri>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -739,11 +739,11 @@
       <node ref="C19" pin="1"/>
     </net>
     <net code="27" name="Net-(C18-Pad2)">
+      <node ref="D6" pin="2"/>
       <node ref="D3" pin="2"/>
       <node ref="U6" pin="2"/>
       <node ref="C18" pin="2"/>
       <node ref="C20" pin="2"/>
-      <node ref="D6" pin="2"/>
       <node ref="D1" pin="2"/>
     </net>
   </nets>
