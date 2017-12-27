@@ -20,6 +20,14 @@ There is a bare patch on the board surrounding the output stage; you can solder 
 sheet here to act as a heatsink, if that seems to be necessary.  Note that it will be connected to the negative
 rail, so don't let the heatsink touch anything.
 
+## Errata
+
+Rev.A is missing reverse-protection diodes around the regulators.  They are considered best-practise
+for cases where the input voltage on a regulator may collapse faster than the output and as such should not be necessary for this design - the regulators should be the only current
+drain upon the rectifier capacitors.
+
+They have been added to Rev.B, and can be hand-soldered onto the underside of a Rev.A board per the Rev.B schematic.
+
 ## License
 
 This hardware design is (C) 2017 William Brodie-Tyrrell and is licensed under the CERN OHL; see cern_ohl_v_1_2.pdf
