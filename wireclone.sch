@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "appnote-amplifier top-level sheet"
-Date "2017-10-28"
-Rev "A"
+Date "2017-12-27"
+Rev "B"
 Comp ""
 Comment1 ""
 Comment2 ""

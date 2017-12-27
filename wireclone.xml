@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/william/git/pcb/appnote-amplifier/wireclone.sch</source>
+    <date>Wed 27 Dec 2017 21:52:59 ACDT</date>
+    <tool>Eeschema 4.0.5-e0-6337~49~ubuntu15.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>appnote-amplifier top-level sheet</title>
+        <company/>
+        <rev>B</rev>
+        <date>2017-12-27</date>
+        <source>wireclone.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/amplifiers/" tstamps="/58493B1C/">
+      <title_block>
+        <title>appnote-amplifier signal section</title>
+        <company/>
+        <rev>A</rev>
+        <date>2017-10-28</date>
+        <source>amplifiers.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/PSU/" tstamps="/584A846C/">
+      <title_block>
+        <title>appnote-amplifier regulated power supply</title>
+        <company/>
+        <rev>B</rev>
+        <date>2017-12-27</date>
+        <source>psu.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P3">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584AA284</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F1B351</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F1B7BD</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>FIDUCIAL</value>
+      <footprint>smd:FID0.5</footprint>
+      <libsource lib="wbt-device" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F1CCBA</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>FIDUCIAL</value>
+      <footprint>smd:FID0.5</footprint>
+      <libsource lib="wbt-device" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F1D516</tstamp>
+    </comp>
+    <comp ref="FID4">
+      <value>FIDUCIAL</value>
+      <footprint>smd:FID0.5</footprint>
+      <libsource lib="wbt-device" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F1D58D</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>FIDUCIAL</value>
+      <footprint>smd:FID0.5</footprint>
+      <libsource lib="wbt-device" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F1D603</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LME49720</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <libsource lib="ti-opamp" part="LME49720"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>584963F2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>58496400</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>5849640D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>58496414</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>5849641B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>58496422</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>5849642F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>58496436</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>5849643D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>5849647A</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LME49600</value>
+      <footprint>power:TO-263-5</footprint>
+      <libsource lib="ti-opamp" part="LME49600"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>584964C2</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LME49720</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <libsource lib="ti-opamp" part="LME49720"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>584964C9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>584964D7</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>584964E4</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>584964EB</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>584964F2</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>584964F9</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>58496506</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>5849650D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>58496514</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>58496551</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>59F06F77</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>59F07279</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>59F07341</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>59F0740E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LME49600</value>
+      <footprint>power:TO-263-5</footprint>
+      <libsource lib="ti-opamp" part="LME49600"/>
+      <sheetpath names="/amplifiers/" tstamps="/58493B1C/"/>
+      <tstamp>584963EB</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>M7</value>
+      <footprint>Diodes_SMD:D_SMA</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584A8558</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>M7</value>
+      <footprint>Diodes_SMD:D_SMA</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584A8739</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1000u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D16_L25_P7.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584A87EB</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1000u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D16_L25_P7.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584A8AF7</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584A8C65</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1000u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D16_L25_P7.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584A908D</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1000u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D16_L25_P7.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584A90F5</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584A93FD</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LM7812CT</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="regul" part="LM7805CT"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584AC303</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LM7912CT</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="regul" part="LM7905CT"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584AC39C</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X03</value>
+      <footprint>Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584ADD48</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>M7</value>
+      <footprint>Diodes_SMD:D_SMA</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584ADE25</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>M7</value>
+      <footprint>Diodes_SMD:D_SMA</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>584ADE5D</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LL4148</value>
+      <footprint>Diodes_SMD:D_MiniMELF</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>5A4380AA</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LL4148</value>
+      <footprint>Diodes_SMD:D_MiniMELF</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PSU/" tstamps="/584A846C/"/>
+      <tstamp>5A4382E8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wbt-device" part="FIDUCIAL">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">FIDUCIAL</field>
+      </fields>
+    </libpart>
+    <libpart lib="regul" part="LM7805CT">
+      <aliases>
+        <alias>LM7806CT</alias>
+        <alias>LM7808CT</alias>
+        <alias>LM7809CT</alias>
+        <alias>LM7810CT</alias>
+        <alias>LM7812CT</alias>
+        <alias>LM7815CT</alias>
+        <alias>LM7818CT</alias>
+        <alias>LM7824CT</alias>
+        <alias>LM7806ACT</alias>
+        <alias>LM7808ACT</alias>
+        <alias>LM7809ACT</alias>
+        <alias>LM7810ACT</alias>
+        <alias>LM7812ACT</alias>
+        <alias>LM7815ACT</alias>
+        <alias>LM7818ACT</alias>
+        <alias>LM7824ACT</alias>
+      </aliases>
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM7805.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805CT</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM7905CT">
+      <aliases>
+        <alias>LM7906CT</alias>
+        <alias>LM7908CT</alias>
+        <alias>LM7909CT</alias>
+        <alias>LM7910CT</alias>
+        <alias>LM7912CT</alias>
+        <alias>LM7915CT</alias>
+        <alias>LM7918CT</alias>
+        <alias>LM7924CT</alias>
+      </aliases>
+      <description>Negative 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM7905.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7905CT</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="ti-opamp" part="LME49600">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LME49600</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BW" type="input"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="VEE" type="power_in"/>
+        <pin num="4" name="OUT" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="T" name="VEE" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ti-opamp" part="LME49720">
+      <description>LME49720 dual low-noise op-amp</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LME49720</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="IN-" type="input"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="VEE" type="power_in"/>
+        <pin num="5" name="IN+" type="input"/>
+        <pin num="6" name="IN-" type="input"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="ti-opamp">
+      <uri>/home/william/git/pcb/libraries/ti-opamp.lib</uri>
+    </library>
+    <library logical="wbt-device">
+      <uri>/home/william/git/pcb/libraries/wbt-device.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/amplifiers/INR">
+      <node ref="U2" pin="3"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="2" name="/PSU/VCC">
+      <node ref="U1" pin="8"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C21" pin="1"/>
+    </net>
+    <net code="3" name="/PSU/VEE">
+      <node ref="C4" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="T"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U4" pin="T"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="4" name="/amplifiers/INL">
+      <node ref="P2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="5" name="/amplifiers/OUTL">
+      <node ref="U3" pin="4"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="6" name="/PSU/AC2">
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="7" name="/amplifiers/OUTR">
+      <node ref="R10" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="P3" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="P4" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="9" name="/PSU/AC1">
+      <node ref="P1" pin="3"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C8-Pad2)">
+      <node ref="U2" pin="6"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R10-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad1)">
+      <node ref="U4" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C2-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="16" name="Net-(C1-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C7-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="21" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="25" name="Net-(R1-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="26" name="Net-(C17-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C18-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+  </nets>
+</export>

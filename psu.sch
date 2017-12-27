@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title "appnote-amplifier regulated power supply"
-Date "2017-10-28"
-Rev "A"
+Date "2017-12-27"
+Rev "B"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -112,7 +112,7 @@ Wire Wire Line
 	4600 3200 4600 3300
 Connection ~ 4600 3200
 Wire Wire Line
-	4800 3200 4800 3300
+	4800 2700 4800 3300
 Connection ~ 4800 3200
 Wire Wire Line
 	4600 3600 4600 4600
@@ -123,7 +123,7 @@ Connection ~ 4800 4100
 Wire Wire Line
 	5900 3200 7100 3200
 Wire Wire Line
-	6100 3200 6100 3300
+	6100 2700 6100 3300
 Wire Wire Line
 	6100 3600 6100 4600
 Connection ~ 6100 4100
@@ -167,7 +167,7 @@ Wire Wire Line
 	4600 4900 4600 5000
 Connection ~ 4600 5000
 Wire Wire Line
-	4800 5000 4800 4900
+	4800 4900 4800 5500
 Connection ~ 4800 5000
 $Comp
 L C C22
@@ -183,7 +183,7 @@ $EndComp
 Wire Wire Line
 	5900 5000 7100 5000
 Wire Wire Line
-	6100 5000 6100 4900
+	6100 4900 6100 5500
 Connection ~ 6100 5000
 $Comp
 L LM7805CT U5
@@ -266,4 +266,34 @@ Text HLabel 3450 3000 0    60   Input ~ 0
 AC1
 Text HLabel 3700 3200 0    60   Input ~ 0
 AC2
+$Comp
+L D D5
+U 1 1 5A4380AA
+P 5450 2700
+F 0 "D5" H 5450 2800 50  0000 C CNN
+F 1 "LL4148" H 5450 2600 50  0000 C CNN
+F 2 "Diodes_SMD:D_MiniMELF" H 5450 2700 50  0001 C CNN
+F 3 "" H 5450 2700 50  0000 C CNN
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D6
+U 1 1 5A4382E8
+P 5500 5500
+F 0 "D6" H 5500 5600 50  0000 C CNN
+F 1 "LL4148" H 5500 5400 50  0000 C CNN
+F 2 "Diodes_SMD:D_MiniMELF" H 5500 5500 50  0001 C CNN
+F 3 "" H 5500 5500 50  0000 C CNN
+	1    5500 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 2700 4800 2700
+Wire Wire Line
+	5600 2700 6100 2700
+Wire Wire Line
+	4800 5500 5350 5500
+Wire Wire Line
+	6100 5500 5650 5500
 $EndSCHEMATC
